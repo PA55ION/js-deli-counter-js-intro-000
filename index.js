@@ -14,4 +14,10 @@ function nowServing(line) {
 function currentLine(line) {
       if(!line.length) return 'The line is currently empty.';
 
+      const numberAndName = [];
+
+      for (let i = 0; i < line.length; i++) {
+        numberAndName.push(`${i + 1}. ${line[i]}`);
+      }
+      return `The line is currently ${i} + ${line}`
 }
