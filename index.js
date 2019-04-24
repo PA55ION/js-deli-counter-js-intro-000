@@ -1,6 +1,6 @@
 var katzDeliLine = [];
 
-function takeNumber(line, name) {
+function takeANumber(line, name) {
     line.push(name)
     return `Welcome, ${name}. You are number 1 in line.`;
 
