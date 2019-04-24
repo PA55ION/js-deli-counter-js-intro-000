@@ -12,7 +12,7 @@ function nowServing(line) {
   }
 
     return `Currently sering ${line.shift()}`
-    
+
 }
 
 function currentLine(line) {
