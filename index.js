@@ -17,7 +17,7 @@ function currentLine(line) {
       const numberAndName = [];
 
       for (let i = 0; i < line.length; i++) {
-        numberAndName.push(`${i + 1}. + '' +  ${line[i]}`);
+        numberAndName.push(`${i + 1}. + '' + ${line[i]}`);
       }
       return `The line is currently: ${numberAndName}`
 }
